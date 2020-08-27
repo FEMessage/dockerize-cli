@@ -1,0 +1,21 @@
+branches:
+  only:
+    - master
+language: node_js
+node_js:
+- lts/*
+git:
+  depth: 10
+install:
+- yarn --frozen-lockfile
+- yarn test
+script:
+- ./build.sh
+after_script:
+- ./notify.sh
+cache: yarn
+deploy:
+- provider: npm
+  email: cjfff1996@gmail.com # use your own email
+  api_key: $NPM_TOKEN
+  skip-cleanup: true
