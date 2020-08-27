@@ -1,6 +1,6 @@
 {
   "name": "@femessage/dockerize-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "dockerize your web project in one minute",
   "main": "index.js",
   "scripts": {
