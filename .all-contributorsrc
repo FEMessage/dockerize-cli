@@ -1,0 +1,45 @@
+{
+  "projectName": "dockerize-cli",
+  "projectOwner": "FEMessage",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "cjfff",
+      "name": "cjf",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20502762?v=4",
+      "profile": "http://www.ccc1996.cn",
+      "contributions": [
+        "code",
+        "test",
+        "blog",
+        "maintenance"
+      ]
+    },
+    {
+      "login": "dream2023",
+      "name": "超杰",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19297757?v=4",
+      "profile": "http://dream2023.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "DeepenLau",
+      "name": "deepen",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14030995?v=4",
+      "profile": "https://blog.deepenlau.me/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

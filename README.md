@@ -1,7 +1,7 @@
 # 🐳 dockerize-cli
 
-[![NPM Download](https://badgen.net/npm/dm/dockerize-cli)](https://www.npmjs.com/package/dockerize-cli)
-[![NPM Version](https://badgen.net/npm/v/dockerize-cli)](https://www.npmjs.com/package/dockerize-cli)
+[![NPM Download](https://badgen.net/npm/dm/@femessage/dockerize-cli)](https://www.npmjs.com/package/@femessage/dockerize-cli)
+[![NPM Version](https://badgen.net/npm/v/@femessage/dockerize-cli)](https://www.npmjs.com/package/@femessage/dockerize-cli)
 [![NPM License](https://badgen.net/npm/license/dockerize-cli)](https://github.com/femessage/dockerize-cli/blob/master/LICENSE)
 [![PRs Welcome](https://badgen.net/badge/PRs/welcome/green)](https://github.com/femessage/dockerize-cli/pulls)
 
@@ -13,8 +13,8 @@
   - [环境需求](#环境需求)
 - [使用教程](#使用教程)
   - [快速开始](#快速开始)
-  - [帮助](#帮助)
   - [参数选项](#参数选项)
+- [Links](#links)
 
 ## 注意事项
 
@@ -117,3 +117,18 @@ npx @femessage/dockerize-cli init
 具体文件以及 npm script 使用方法可以查看 init 之后，在项目根目录生成的 DOCKER_BUILD.md
 
 [⬆ Back to Top](#目录)
+
+## Links
+- [设计文档](https://www.yuque.com/ubdme4/ccc/mto2nz#BAbmJ)
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table><tr><td align="center"><a href="http://www.ccc1996.cn"><img src="https://avatars1.githubusercontent.com/u/20502762?v=4" width="100px;" alt="cjf"/><br /><sub><b>cjf</b></sub></a><br /><a href="https://github.com/FEMessage/dockerize-cli/commits?author=cjfff" title="Code">💻</a> <a href="https://github.com/FEMessage/dockerize-cli/commits?author=cjfff" title="Tests">⚠️</a> <a href="#blog-cjfff" title="Blogposts">📝</a> <a href="#maintenance-cjfff" title="Maintenance">🚧</a></td><td align="center"><a href="http://dream2023.github.io"><img src="https://avatars0.githubusercontent.com/u/19297757?v=4" width="100px;" alt="超杰"/><br /><sub><b>超杰</b></sub></a><br /><a href="https://github.com/FEMessage/dockerize-cli/commits?author=dream2023" title="Code">💻</a></td><td align="center"><a href="https://blog.deepenlau.me/"><img src="https://avatars3.githubusercontent.com/u/14030995?v=4" width="100px;" alt="deepen"/><br /><sub><b>deepen</b></sub></a><br /><a href="https://github.com/FEMessage/dockerize-cli/commits?author=DeepenLau" title="Code">💻</a></td></tr></table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
