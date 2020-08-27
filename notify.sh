@@ -36,9 +36,9 @@ body=$(grep body < $resp_tmp_file | sed 's/\"body\"://g;s/\"//g')
 version=$(echo $html_url | awk -F '/' '{print $NF}')
 
 echo "5/5: notifying with dingtalk bot"
-#msg='{"msgtype": "markdown", "markdown": {"title": "'$REPO_NAME'更新", "text": "@所有人\n# ['$REPO_NAME'('$version')]('$html_url')\n'$body'"}}'
+msg='{"msgtype": "markdown", "markdown": {"title": "'$REPO_NAME'更新", "text": "@所有人\n# ['$REPO_NAME'('$version')]('$html_url')\n'$body'"}}'
 
-#curl -X POST https://oapi.dingtalk.com/robot/send\?access_token\=$DINGTALK_ROBOT_TOKEN -H 'Content-Type: application/json' -d "$msg"
+curl -X POST https://oapi.dingtalk.com/robot/send\?access_token\=$DINGTALK_ROBOT_TOKEN -H 'Content-Type: application/json' -d "$msg"
 
 rm $resp_tmp_file
 

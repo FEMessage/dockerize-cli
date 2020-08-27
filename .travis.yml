@@ -16,6 +16,6 @@ after_script:
 cache: yarn
 deploy:
 - provider: npm
-  email: cjfff1996@gmail.com # use your own email
+  email: levy9527@qq.com # use your own email
   api_key: $NPM_TOKEN
   skip-cleanup: true
